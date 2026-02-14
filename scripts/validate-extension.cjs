@@ -97,8 +97,8 @@ const REQUIRED_FILES = {
     filePattern: null
   },
   'automation': {
-    required: ['manifest.json', 'README.md'],
-    filePattern: /automation-config\.json$/
+    required: ['manifest.json', 'README.md', 'automation-config.json'],
+    filePattern: null
   }
 };
 
