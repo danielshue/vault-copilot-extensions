@@ -10,7 +10,7 @@ author_url: "https://github.com/danielshue"
 icon: "extensions/agents/agent-builder/icon.svg"
 categories: ["Productivity", "Utility"]
 tags: ["agent", "builder", "meta", "customization"]
-size: "110.6 KB"
+size: "110.7 KB"
 versions:
   - version: "1.0.0"
     date: "2026-02-13"
