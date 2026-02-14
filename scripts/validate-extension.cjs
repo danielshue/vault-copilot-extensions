@@ -281,6 +281,19 @@ function validateManifestBasic(manifest) {
     }
   }
 
+  // Entitlement validation
+  if (manifest.entitlement) {
+    const validEntitlements = ['free', 'premium'];
+    if (!validEntitlements.includes(manifest.entitlement)) {
+      issues.push({
+        severity: 'error',
+        message: `Invalid entitlement: "${manifest.entitlement}". Must be: ${validEntitlements.join(', ')}`,
+        code: 'INVALID_ENTITLEMENT',
+        file: 'manifest.json'
+      });
+    }
+  }
+
   // Files validation
   if (manifest.files) {
     for (const file of manifest.files) {

@@ -23,6 +23,20 @@
   </div>
   {% endif %}
   
+  <!-- Entitlement -->
+  {% if page.entitlement %}
+  <div class="sidebar-section">
+    <h3 class="sidebar-heading">Access Tier</h3>
+    <p class="sidebar-value">
+      {% if page.entitlement == 'premium' %}
+      <span class="entitlement-badge entitlement-premium">⭐ Premium</span>
+      {% else %}
+      <span class="entitlement-badge entitlement-free">Free</span>
+      {% endif %}
+    </p>
+  </div>
+  {% endif %}
+  
   <!-- Rating (populated via JS from Azure API) -->
   <div class="sidebar-section" id="sidebar-rating" style="display:none;">
     <h3 class="sidebar-heading">Rating</h3>

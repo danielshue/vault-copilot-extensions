@@ -11,6 +11,7 @@ icon: "extensions/agents/daily-journal-agent/icon.svg"
 categories: ["Productivity", "Journaling"]
 tags: ["daily", "journal", "reflection", "gratitude", "goals", "habits"]
 size: "103.2 KB"
+entitlement: "free"
 versions:
   - version: "1.0.0"
     date: "2026-02-01"

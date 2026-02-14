@@ -22,6 +22,7 @@
   "tags": ["automation", "daily-notes", "templates", "scheduling"],
   "tools": ["create_note", "read_note", "search_vault"],
   "preview": "preview.png",
+  "entitlement": "free",
   "automation": {
     "triggers": [
       {

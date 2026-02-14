@@ -15,6 +15,9 @@
     <p class="card-description">{{ extension.description }}</p>
     <div class="card-meta">
       <span class="card-categories">{{ extension.categories | join: ' · ' }}</span>
+      {% if extension.entitlement == 'premium' %}
+      <span class="entitlement-badge entitlement-premium">⭐ Premium</span>
+      {% endif %}
       <span class="card-version">v{{ extension.version }}</span>
     </div>
   </div>

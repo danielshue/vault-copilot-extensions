@@ -122,6 +122,7 @@ function generateExtensionPages() {
         manifest.categories && manifest.categories.length > 0 ? `categories: [${manifest.categories.map(c => `"${c}"`).join(', ')}]` : null,
         manifest.tags && manifest.tags.length > 0 ? `tags: [${manifest.tags.map(t => `"${t}"`).join(', ')}]` : null,
         extensionSize ? `size: "${extensionSize}"` : null,
+        manifest.entitlement ? `entitlement: "${manifest.entitlement}"` : 'entitlement: "free"',
       ];
 
       // Include version history when available

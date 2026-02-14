@@ -1014,6 +1014,42 @@ body {
   font-size: 0.75rem;
 }
 
+/* Entitlement badges */
+.entitlement-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.entitlement-free {
+  background-color: #e6f4ea;
+  color: #1a7f37;
+  border: 1px solid #1a7f37;
+}
+
+.entitlement-premium {
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  color: #1a1a1a;
+  border: 1px solid #d4af37;
+  font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  .entitlement-free {
+    background-color: #1a3d2e;
+    color: #7ee787;
+    border-color: #2ea043;
+  }
+  
+  .entitlement-premium {
+    background: linear-gradient(135deg, #d4af37 0%, #f0c744 100%);
+    color: #0d1117;
+  }
+}
+
 .sidebar-tools {
   list-style: none;
   padding: 0;

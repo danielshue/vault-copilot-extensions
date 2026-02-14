@@ -487,6 +487,7 @@ function scanExtension(typeDir, type, extName) {
     featured: manifest.featured || false,
     versions: manifest.versions || [],
     submittedBy: manifest.submittedBy || null,
+    entitlement: manifest.entitlement || 'free',
     _sourceDir: extDir, // Internal use only, removed before output
     _manifestPath: manifestPath
   };
