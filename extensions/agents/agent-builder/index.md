@@ -7,9 +7,10 @@ version: "1.0.0"
 description: "Interactive assistant that guides you through creating custom .agent.md files with best practices, dynamic tool/skill discovery, and quality validation."
 author: "Dan Shue"
 author_url: "https://github.com/danielshue"
+icon: "extensions/agents/agent-builder/icon.svg"
 categories: ["Productivity", "Utility"]
 tags: ["agent", "builder", "meta", "customization"]
-size: "11.7 KB"
+size: "110.6 KB"
 versions:
   - version: "1.0.0"
     date: "2026-02-13"
