@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated": "2026-02-14T05:14:39.207Z",
+  "generated": "2026-02-14T06:31:13.429Z",
   "totalExtensions": 7,
   "extensions": [
     {
@@ -26,8 +26,8 @@
       "downloads": 0,
       "rating": null,
       "ratingCount": 0,
-      "publishedAt": "2026-02-14T05:14:34.999Z",
-      "updatedAt": "2026-02-14T05:14:34.999Z",
+      "publishedAt": "2026-02-14T06:27:58.141Z",
+      "updatedAt": "2026-02-14T06:27:58.141Z",
       "size": "5.9 KB",
       "sizeBytes": 6060,
       "minVaultCopilotVersion": "0.0.14",
@@ -71,8 +71,7 @@
         }
       ],
       "submittedBy": "danielshue",
-      "activeInstalls": 0,
-      "analyticsSource": "azure"
+      "entitlement": "free"
     },
     {
       "id": "daily-journal-agent",
@@ -99,8 +98,8 @@
       "downloads": 0,
       "rating": null,
       "ratingCount": 0,
-      "publishedAt": "2026-02-14T05:14:34.999Z",
-      "updatedAt": "2026-02-14T05:14:34.999Z",
+      "publishedAt": "2026-02-14T06:27:58.141Z",
+      "updatedAt": "2026-02-14T06:27:58.141Z",
       "size": "17.9 KB",
       "sizeBytes": 18349,
       "minVaultCopilotVersion": "0.0.1",
@@ -190,8 +189,7 @@
         }
       ],
       "submittedBy": "danielshue",
-      "activeInstalls": 0,
-      "analyticsSource": "azure"
+      "entitlement": "free"
     },
     {
       "id": "daily-note-automation",
@@ -215,8 +213,8 @@
       "downloads": 0,
       "rating": null,
       "ratingCount": 0,
-      "publishedAt": "2026-02-14T05:14:35.002Z",
-      "updatedAt": "2026-02-14T05:14:35.002Z",
+      "publishedAt": "2026-02-14T06:27:58.143Z",
+      "updatedAt": "2026-02-14T06:27:58.143Z",
       "size": "0.3 KB",
       "sizeBytes": 321,
       "minVaultCopilotVersion": "0.1.0",
@@ -243,8 +241,7 @@
       "featured": false,
       "versions": [],
       "submittedBy": null,
-      "activeInstalls": 0,
-      "analyticsSource": "azure"
+      "entitlement": "free"
     },
     {
       "id": "meeting-notes-agent",
@@ -272,7 +269,7 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T05:14:35.001Z",
+      "updatedAt": "2026-02-14T06:27:58.142Z",
       "size": "2.4 KB",
       "sizeBytes": 2481,
       "minVaultCopilotVersion": "0.1.0",
@@ -312,8 +309,7 @@
         }
       ],
       "submittedBy": "danielshue",
-      "activeInstalls": 0,
-      "analyticsSource": "azure"
+      "entitlement": "free"
     },
     {
       "id": "task-management-prompt",
@@ -341,7 +337,7 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T05:14:35.003Z",
+      "updatedAt": "2026-02-14T06:27:58.145Z",
       "size": "1.4 KB",
       "sizeBytes": 1467,
       "minVaultCopilotVersion": "0.1.0",
@@ -380,8 +376,7 @@
         }
       ],
       "submittedBy": "danielshue",
-      "activeInstalls": 0,
-      "analyticsSource": "azure"
+      "entitlement": "free"
     },
     {
       "id": "example-weather-mcp",
@@ -409,7 +404,7 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T05:14:35.003Z",
+      "updatedAt": "2026-02-14T06:27:58.144Z",
       "size": "0.2 KB",
       "sizeBytes": 238,
       "minVaultCopilotVersion": "0.1.0",
@@ -446,8 +441,7 @@
         }
       ],
       "submittedBy": "danielshue",
-      "activeInstalls": 0,
-      "analyticsSource": "azure"
+      "entitlement": "free"
     },
     {
       "id": "weekly-review-agent",
@@ -475,7 +469,7 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T05:14:35.001Z",
+      "updatedAt": "2026-02-14T06:27:58.143Z",
       "size": "3.4 KB",
       "sizeBytes": 3458,
       "minVaultCopilotVersion": "0.1.0",
@@ -515,8 +509,7 @@
         }
       ],
       "submittedBy": "danielshue",
-      "activeInstalls": 0,
-      "analyticsSource": "azure"
+      "entitlement": "free"
     }
   ],
   "categories": [
@@ -553,6 +546,5 @@
     },
     "withRatings": 0,
     "averageRating": null
-  },
-  "lastUpdated": "2026-02-14T05:14:39.666Z"
+  }
 }

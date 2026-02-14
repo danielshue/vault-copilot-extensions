@@ -31,5 +31,6 @@
   "preview": "github-mcp-preview.png",
   "changelog": "CHANGELOG.md",
   "featured": true,
-  "publishedAt": "2025-09-20T08:00:00Z"
+  "publishedAt": "2025-09-20T08:00:00Z",
+  "entitlement": "premium"
 }

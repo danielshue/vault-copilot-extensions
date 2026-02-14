@@ -11,6 +11,7 @@ icon: "extensions/agents/meeting-notes-agent/icon.svg"
 categories: ["Productivity", "Task Management"]
 tags: ["meetings", "notes", "action-items", "agenda", "summary", "collaboration"]
 size: "62.6 KB"
+entitlement: "free"
 versions:
   - version: "1.0.0"
     date: "2026-02-01"

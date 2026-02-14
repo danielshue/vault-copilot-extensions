@@ -11,6 +11,7 @@ icon: "extensions/agents/agent-builder/icon.svg"
 categories: ["Productivity", "Utility"]
 tags: ["agent", "builder", "meta", "customization"]
 size: "110.7 KB"
+entitlement: "free"
 versions:
   - version: "1.0.0"
     date: "2026-02-13"

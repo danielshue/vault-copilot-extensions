@@ -11,6 +11,7 @@ icon: "extensions/mcp-servers/example-weather-mcp/icon.svg"
 categories: ["Integration", "MCP", "Utility"]
 tags: ["weather", "mcp", "api", "daily-notes", "planning"]
 size: "64.1 KB"
+entitlement: "free"
 versions:
   - version: "1.0.0"
     date: "2026-02-01"

@@ -217,6 +217,13 @@
       "description": "GitHub username of the person who submitted or last updated this extension. Used for update validation to ensure only the original submitter can update the extension.",
       "examples": ["danielshue", "janedeveloper", "github-username"]
     },
+    "entitlement": {
+      "type": "string",
+      "enum": ["free", "premium"],
+      "default": "free",
+      "description": "Access tier required to use this extension. 'free' extensions are available to all users, while 'premium' extensions require a paid subscription to Vault Copilot.",
+      "examples": ["free", "premium"]
+    },
     "automation": {
       "type": "object",
       "description": "Automation-specific configuration. Required when type is 'automation'. Defines triggers and actions for scheduled or event-based workflows.",
