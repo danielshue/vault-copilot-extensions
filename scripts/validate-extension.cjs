@@ -28,7 +28,7 @@ const SCHEMA_PATH = path.join(__dirname, '..', 'schema', 'manifest.schema.json')
 const EXTENSIONS_DIR = path.join(__dirname, '..', 'extensions');
 const CATALOG_PATH = path.join(__dirname, '..', 'catalog', 'catalog.json');
 
-const EXTENSION_TYPES = ['agents', 'voice-agents', 'prompts', 'skills', 'mcp-servers'];
+const EXTENSION_TYPES = ['agents', 'voice-agents', 'prompts', 'skills', 'mcp-servers', 'automations'];
 
 const VALID_CATEGORIES = [
   'Productivity',
@@ -94,6 +94,10 @@ const REQUIRED_FILES = {
   },
   'mcp-server': {
     required: ['manifest.json', 'README.md', 'mcp-config.json'],
+    filePattern: null
+  },
+  'automation': {
+    required: ['manifest.json', 'README.md', 'automation-config.json'],
     filePattern: null
   }
 };
@@ -233,7 +237,7 @@ function validateManifestBasic(manifest) {
   }
 
   // Type validation
-  const validTypes = ['agent', 'voice-agent', 'prompt', 'skill', 'mcp-server'];
+  const validTypes = ['agent', 'voice-agent', 'prompt', 'skill', 'mcp-server', 'automation'];
   if (manifest.type && !validTypes.includes(manifest.type)) {
     issues.push({
       severity: 'error',
