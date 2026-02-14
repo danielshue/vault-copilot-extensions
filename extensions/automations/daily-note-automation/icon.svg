@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="dabg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="url(#dabg)"/>
+  <!-- Calendar/Note -->
+  <rect x="14" y="16" width="26" height="32" rx="3" fill="#fff" opacity="0.95"/>
+  <rect x="14" y="16" width="26" height="8" rx="3" fill="#fde68a"/>
+  <!-- Lines on note -->
+  <line x1="18" y1="30" x2="36" y2="30" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+  <line x1="18" y1="36" x2="34" y2="36" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+  <line x1="18" y1="42" x2="30" y2="42" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+  <!-- Clock/automation circle -->
+  <circle cx="44" cy="38" r="12" fill="#fff" opacity="0.95"/>
+  <circle cx="44" cy="38" r="12" fill="none" stroke="#fde68a" stroke-width="2"/>
+  <!-- Clock hands -->
+  <line x1="44" y1="38" x2="44" y2="30" stroke="#d97706" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="44" y1="38" x2="50" y2="38" stroke="#d97706" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="44" cy="38" r="1.5" fill="#d97706"/>
+  <!-- Repeat arrows -->
+  <path d="M36 14 L40 10 L44 14" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 10 L40 18" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+</svg>
