@@ -1,0 +1,19 @@
+{
+  "name": "vault-copilot-extensions",
+  "version": "1.0.0",
+  "description": "Extension marketplace for Vault Copilot - agents, prompts, skills, MCP servers, and automations",
+  "private": true,
+  "scripts": {
+    "build:catalog": "node scripts/build-catalog.cjs",
+    "validate:extension": "node scripts/validate-extension.cjs",
+    "generate:pages": "node scripts/generate-extension-pages.cjs",
+    "fetch:metrics": "node scripts/fetch-azure-metrics.cjs",
+    "remove:extension": "node scripts/remove-extension.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielshue/vault-copilot-extensions.git"
+  },
+  "author": "Dan Shue",
+  "license": "MIT"
+}

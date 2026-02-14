@@ -1,0 +1,543 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-02-14T04:01:14.784Z",
+  "totalExtensions": 7,
+  "extensions": [
+    {
+      "id": "agent-builder",
+      "name": "Agent Builder",
+      "type": "agent",
+      "version": "1.0.0",
+      "description": "Interactive assistant that guides you through creating custom .agent.md files with best practices, dynamic tool/skill discovery, and quality validation.",
+      "author": {
+        "name": "Dan Shue",
+        "url": "https://github.com/danielshue"
+      },
+      "categories": [
+        "Productivity",
+        "Utility"
+      ],
+      "tags": [
+        "agent",
+        "builder",
+        "meta",
+        "customization"
+      ],
+      "downloads": 0,
+      "rating": null,
+      "ratingCount": 0,
+      "publishedAt": "2026-02-14T01:47:33.744Z",
+      "updatedAt": "2026-02-14T01:47:33.744Z",
+      "size": "5.9 KB",
+      "sizeBytes": 6060,
+      "minVaultCopilotVersion": "0.0.14",
+      "repository": "https://github.com/danielshue/obsidian-vault-copilot",
+      "license": "MIT",
+      "detailPageUrl": "https://danielshue.github.io/vault-copilot-extensions/extensions/agents/agent-builder/",
+      "discussionUrl": null,
+      "files": [
+        {
+          "source": "agent-builder.agent.md",
+          "downloadUrl": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/agent-builder/agent-builder.agent.md",
+          "installPath": "Reference/Agents/",
+          "size": "5.9 KB"
+        }
+      ],
+      "tools": [
+        "list_available_tools",
+        "list_available_skills",
+        "list_available_agents",
+        "list_available_prompts",
+        "list_available_instructions",
+        "create_note",
+        "read_note",
+        "ask_question"
+      ],
+      "permissions": [],
+      "dependencies": [],
+      "preview": null,
+      "icon": null,
+      "featured": false,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-02-13",
+          "changes": [
+            "Initial release",
+            "8-phase agent creation workflow",
+            "Dynamic tool and skill discovery via introspection",
+            "Quality validation and best practices enforcement"
+          ]
+        }
+      ],
+      "submittedBy": "danielshue"
+    },
+    {
+      "id": "daily-journal-agent",
+      "name": "Daily Journal Agent",
+      "type": "agent",
+      "version": "1.1.1",
+      "description": "Daily Journal Agent helps you create a structured daily journal note and then update it throughout the day, one section at a time (intentions, gratitude, log, mood/energy, reflection, and related l...",
+      "author": {
+        "name": "Dan Shue",
+        "url": "https://github.com/danielshue"
+      },
+      "categories": [
+        "Productivity",
+        "Journaling"
+      ],
+      "tags": [
+        "daily",
+        "journal",
+        "reflection",
+        "gratitude",
+        "goals",
+        "habits"
+      ],
+      "downloads": 0,
+      "rating": null,
+      "ratingCount": 0,
+      "publishedAt": "2026-02-14T01:47:33.745Z",
+      "updatedAt": "2026-02-14T01:47:33.745Z",
+      "size": "18.3 KB",
+      "sizeBytes": 18729,
+      "minVaultCopilotVersion": "0.0.1",
+      "repository": "https://github.com/danielshue/obsidian-vault-copilot",
+      "license": "MIT",
+      "detailPageUrl": "https://danielshue.github.io/vault-copilot-extensions/extensions/agents/daily-journal-agent/",
+      "discussionUrl": null,
+      "files": [
+        {
+          "source": "daily-journal-agent.agent.md",
+          "downloadUrl": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/daily-journal-agent/daily-journal-agent.agent.md",
+          "installPath": "extensions/agents/daily-journal-agent/daily-journal-agent.agent.md",
+          "size": "18.3 KB"
+        }
+      ],
+      "tools": [
+        "create_note",
+        "read_note",
+        "search_vault",
+        "get_daily_note"
+      ],
+      "permissions": [],
+      "dependencies": [],
+      "preview": null,
+      "icon": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/daily-journal-agent/icon.svg",
+      "featured": false,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-02-01",
+          "changes": [
+            "Initial release",
+            "Structured journal entries with gratitude and goals sections",
+            "Pattern recognition from previous entries",
+            "Smart linking to related notes"
+          ]
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-02-08",
+          "changes": [
+            "Added a new agent-style YAML header replacing the site/extension metadata, including explicit `model: gpt-4o`, a `skills` block, and an expanded tool list.",
+            "Added support for **incremental journaling workflows**: create today’s note if missing, then return throughout the day to update only a selected section.",
+            "Added **section selector** workflow with explicit supported sections: Morning Intentions, Gratitude, Daily Log Entry, Manage Tasks, Evening Reflection, Mood & Energy Check-in, and Add Related Links.",
+            "Added **Tasks integration** via the `obsidian-tasks` skill, including viewing tasks in today’s note and actions to add, complete, review/filter, reschedule, and remove tasks (with emoji-based Tasks metadata like 📅, ✅, ⏫, 🔁).",
+            "Added **Mood & energy tracking** that saves `mood:` and `energy:` into YAML frontmatter for longitudinal tracking.",
+            "Added **writing style modes** for narrative sections (Full narrative, Light polish, Exact words) selected once per session when first entering a narrative-eligible section.",
+            "Added an explicit **preview-before-save** step for narrative sections so users can request edits prior to writing changes.",
+            "Added detailed end-to-end **Examples** (Morning setup, Midday log append, Task management, Evening wrap-up) that document expected agent behavior and outputs.",
+            "Rewrote the README from a short “features + simple usage prompts” guide into a **process-driven specification** describing tool calls, decision points, and save behavior step-by-step.",
+            "Changed the core behavior from “create structured entries” to **create-or-update** with a strong emphasis on **not overwriting existing content**.",
+            "Expanded tooling from read/create + daily note access to include **note updates** (`update_note`) and **interactive question flows** (`ask_question`), plus task-management tools.",
+            "Changed “Journal Structure” from a fixed list (including Goals Progress) to a **section-based workflow**, with goals now described as being captured in frontmatter during Evening Reflection (rather than a dedicated “Goals Progress” section).",
+            "Changed Daily Log and Related Links behavior to be explicitly **append-oriented**, accumulating content across the day rather than replacing existing text.",
+            "Changed the “pattern recognition” concept into “continuity and pattern awareness,” explicitly noting it should support reflection **without rewriting structured data**.",
+            "Changed usage guidance from single-command examples (e.g., “Start my journal for today”) to a **guided multi-step flow** (start session → choose section → answer one question at a time → preview → save only what changed → continue/stop).",
+            "Addressed the risk of unintended overwrites by specifying a **read-then-update-only-the-chosen-section** save process using `read_note` + `update_note`, preserving all other content.",
+            "Standardized metadata maintenance by requiring `modified-date` in frontmatter to be updated to “today” on each save.",
+            "Removed extension-site frontmatter fields (e.g., `layout`, `permalink`, `identifier`, `version`, `repository`, `license_url`, `categories`, `tags`, `versions`, `size`, and the embedded historical change list).",
+            "Removed the Installation section that referenced the Extension Browser and manual copying instructions.",
+            "Removed the Tools Used table in favor of describing tool usage inline as part of the workflow.",
+            "Removed the “Tips” section and the standalone “Changelog v1.0.0” section from the README content.",
+            "Removed the explicit “License: MIT” section from the body of the README."
+          ]
+        },
+        {
+          "version": "1.1.1",
+          "date": "2026-02-10",
+          "changes": [
+            "Added explicit **Create vs. Update mode** framing in the overview, describing what the agent does when today’s note is missing vs. already exists.",
+            "Added a dedicated **Create mode** section explaining that the agent generates the full daily journal structure (frontmatter + all standard sections) before prompting for the first section to fill.",
+            "Added a more explicit **safe update workflow** for section updates, including that updates target content **between a section heading and the next heading**.",
+            "Added detailed **task formatting rules** for Obsidian Tasks, including:",
+            "Added clearer documentation that **structured fields remain verbatim**, explicitly including **goals** and **tags** (in addition to mood/energy/tasks).",
+            "Added “Preview-first for rewritten sections” as a first-class feature item (highlighting preview before saving narrative rewrites).",
+            "Rewrote the opening description from a workflow-heavy explanation to a concise “thoughtful journaling assistant” summary emphasizing **focused prompts**, **optional narrative rewriting**, and **preserving existing writing**.",
+            "Reworked “Brief overview” from “two core workflows” into “two modes” with clearer, tighter definitions and an explicit note that the agent can manage tasks via Obsidian Tasks metadata.",
+            "Consolidated and reorganized the **Features** list from detailed tool-by-tool behavior into higher-level capabilities, while still calling out:",
+            "Updated the **writing style options** wording and descriptions:",
+            "Restructured **Usage instructions**:",
+            "Expanded and clarified **task management** behavior:",
+            "Updated the **Examples** section:",
+            "Removed the explicit “Special cases” breakdown that previously enumerated behavior for Daily Log, Related Links, Mood/Energy (with exact `mood:` / `energy:` field names), and Tasks as separate bullet rules.",
+            "Removed the dedicated **Task management example** walkthrough (previous “Example C”), replacing it with a more formal task rules section plus shorter scenario examples.",
+            "Removed the documented optional behavior to set `status: complete` in frontmatter when finishing the day."
+          ]
+        }
+      ],
+      "submittedBy": "danielshue"
+    },
+    {
+      "id": "daily-note-automation",
+      "name": "Daily Note Automation",
+      "type": "automation",
+      "version": "1.0.0",
+      "description": "Automatically creates and populates daily notes each morning at 6 AM with yesterday's summary",
+      "author": {
+        "name": "Vault Copilot Team",
+        "url": "https://github.com/danielshue/obsidian-vault-copilot"
+      },
+      "categories": [
+        "Productivity",
+        "Journaling"
+      ],
+      "tags": [
+        "automation",
+        "daily-notes",
+        "scheduling"
+      ],
+      "downloads": 0,
+      "rating": null,
+      "ratingCount": 0,
+      "publishedAt": "2026-02-14T02:33:31.061Z",
+      "updatedAt": "2026-02-14T02:33:31.061Z",
+      "size": "0.3 KB",
+      "sizeBytes": 341,
+      "minVaultCopilotVersion": "0.1.0",
+      "repository": "https://github.com/danielshue/obsidian-vault-copilot",
+      "license": "MIT",
+      "detailPageUrl": "https://danielshue.github.io/vault-copilot-extensions/extensions/automations/daily-note-automation/",
+      "discussionUrl": null,
+      "files": [
+        {
+          "source": "automation-config.json",
+          "downloadUrl": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/automations/daily-note-automation/automation-config.json",
+          "installPath": ".obsidian/automations/",
+          "size": "341 B"
+        }
+      ],
+      "tools": [
+        "create_note",
+        "read_note"
+      ],
+      "permissions": [],
+      "dependencies": [],
+      "preview": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/automations/daily-note-automation/preview.png",
+      "icon": null,
+      "featured": false,
+      "versions": [],
+      "submittedBy": null
+    },
+    {
+      "id": "meeting-notes-agent",
+      "name": "Meeting Notes Agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "description": "Captures, organizes, and summarizes meeting notes with action items, attendees, and follow-up tracking.",
+      "author": {
+        "name": "Dan Shue",
+        "url": "https://danielshue.com"
+      },
+      "categories": [
+        "Productivity",
+        "Task Management"
+      ],
+      "tags": [
+        "meetings",
+        "notes",
+        "action-items",
+        "agenda",
+        "summary",
+        "collaboration"
+      ],
+      "downloads": 0,
+      "rating": null,
+      "ratingCount": 0,
+      "publishedAt": "2026-02-01T00:00:00Z",
+      "updatedAt": "2026-02-14T01:47:33.745Z",
+      "size": "2.5 KB",
+      "sizeBytes": 2577,
+      "minVaultCopilotVersion": "0.1.0",
+      "repository": "https://github.com/danielshue/obsidian-vault-copilot",
+      "license": "MIT",
+      "detailPageUrl": "https://danielshue.github.io/vault-copilot-extensions/extensions/agents/meeting-notes-agent/",
+      "discussionUrl": null,
+      "files": [
+        {
+          "source": "meeting-notes-agent.agent.md",
+          "downloadUrl": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/meeting-notes-agent/meeting-notes-agent.agent.md",
+          "installPath": "Reference/Agents/",
+          "size": "2.5 KB"
+        }
+      ],
+      "tools": [
+        "create_note",
+        "read_note",
+        "search_vault",
+        "update_note"
+      ],
+      "permissions": [],
+      "dependencies": [],
+      "preview": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/meeting-notes-agent/preview.png",
+      "icon": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/meeting-notes-agent/icon.svg",
+      "featured": false,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-02-01",
+          "changes": [
+            "Initial release",
+            "Meeting capture with attendees and agenda",
+            "Automatic action item extraction",
+            "Follow-up tracking integration"
+          ]
+        }
+      ],
+      "submittedBy": "danielshue"
+    },
+    {
+      "id": "task-management-prompt",
+      "name": "Task Management Prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "description": "A reusable prompt for organizing, prioritizing, and tracking tasks using proven productivity methods.",
+      "author": {
+        "name": "Dan Shue",
+        "url": "https://danielshue.com"
+      },
+      "categories": [
+        "Productivity",
+        "Task Management"
+      ],
+      "tags": [
+        "tasks",
+        "todo",
+        "gtd",
+        "eisenhower",
+        "priority",
+        "planning"
+      ],
+      "downloads": 0,
+      "rating": null,
+      "ratingCount": 0,
+      "publishedAt": "2026-02-01T00:00:00Z",
+      "updatedAt": "2026-02-14T01:47:33.747Z",
+      "size": "1.5 KB",
+      "sizeBytes": 1526,
+      "minVaultCopilotVersion": "0.1.0",
+      "repository": "https://github.com/danielshue/obsidian-vault-copilot",
+      "license": "MIT",
+      "detailPageUrl": "https://danielshue.github.io/vault-copilot-extensions/extensions/prompts/task-management-prompt/",
+      "discussionUrl": null,
+      "files": [
+        {
+          "source": "task-management-prompt.prompt.md",
+          "downloadUrl": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/prompts/task-management-prompt/task-management-prompt.prompt.md",
+          "installPath": "Reference/Prompts/",
+          "size": "1.5 KB"
+        }
+      ],
+      "tools": [
+        "search_vault",
+        "read_note",
+        "create_note"
+      ],
+      "permissions": [],
+      "dependencies": [],
+      "preview": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/prompts/task-management-prompt/preview.png",
+      "icon": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/prompts/task-management-prompt/icon.svg",
+      "featured": false,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-02-01",
+          "changes": [
+            "Initial release",
+            "Eisenhower matrix prioritization",
+            "GTD next actions support",
+            "Task categorization and tagging"
+          ]
+        }
+      ],
+      "submittedBy": "danielshue"
+    },
+    {
+      "id": "example-weather-mcp",
+      "name": "Weather MCP Server",
+      "type": "mcp-server",
+      "version": "1.0.0",
+      "description": "Example MCP server integration that provides weather data for your notes and daily planning.",
+      "author": {
+        "name": "Dan Shue",
+        "url": "https://danielshue.com"
+      },
+      "categories": [
+        "Integration",
+        "MCP",
+        "Utility"
+      ],
+      "tags": [
+        "weather",
+        "mcp",
+        "api",
+        "daily-notes",
+        "planning"
+      ],
+      "downloads": 0,
+      "rating": null,
+      "ratingCount": 0,
+      "publishedAt": "2026-02-01T00:00:00Z",
+      "updatedAt": "2026-02-14T01:47:33.746Z",
+      "size": "0.2 KB",
+      "sizeBytes": 252,
+      "minVaultCopilotVersion": "0.1.0",
+      "repository": "https://github.com/danielshue/obsidian-vault-copilot",
+      "license": "MIT",
+      "detailPageUrl": "https://danielshue.github.io/vault-copilot-extensions/extensions/mcp-servers/example-weather-mcp/",
+      "discussionUrl": null,
+      "files": [
+        {
+          "source": "mcp-config.json",
+          "downloadUrl": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/mcp-servers/example-weather-mcp/mcp-config.json",
+          "installPath": ".obsidian/",
+          "size": "252 B"
+        }
+      ],
+      "tools": [],
+      "permissions": [
+        "network-access"
+      ],
+      "dependencies": [],
+      "preview": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/mcp-servers/example-weather-mcp/preview.png",
+      "icon": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/mcp-servers/example-weather-mcp/icon.svg",
+      "featured": false,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-02-01",
+          "changes": [
+            "Initial release",
+            "Current weather data integration",
+            "Forecast support for daily planning",
+            "Location-based weather lookup"
+          ]
+        }
+      ],
+      "submittedBy": "danielshue"
+    },
+    {
+      "id": "weekly-review-agent",
+      "name": "Weekly Review Agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "description": "Guides you through a comprehensive weekly review process to reflect on accomplishments, plan ahead, and maintain productivity.",
+      "author": {
+        "name": "Dan Shue",
+        "url": "https://danielshue.com"
+      },
+      "categories": [
+        "Productivity",
+        "Task Management"
+      ],
+      "tags": [
+        "weekly-review",
+        "gtd",
+        "planning",
+        "reflection",
+        "goals",
+        "productivity"
+      ],
+      "downloads": 0,
+      "rating": null,
+      "ratingCount": 0,
+      "publishedAt": "2026-02-01T00:00:00Z",
+      "updatedAt": "2026-02-14T01:47:33.745Z",
+      "size": "3.5 KB",
+      "sizeBytes": 3597,
+      "minVaultCopilotVersion": "0.1.0",
+      "repository": "https://github.com/danielshue/obsidian-vault-copilot",
+      "license": "MIT",
+      "detailPageUrl": "https://danielshue.github.io/vault-copilot-extensions/extensions/agents/weekly-review-agent/",
+      "discussionUrl": null,
+      "files": [
+        {
+          "source": "weekly-review-agent.agent.md",
+          "downloadUrl": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/weekly-review-agent/weekly-review-agent.agent.md",
+          "installPath": "Reference/Agents/",
+          "size": "3.5 KB"
+        }
+      ],
+      "tools": [
+        "create_note",
+        "read_note",
+        "search_vault",
+        "list_folder"
+      ],
+      "permissions": [],
+      "dependencies": [],
+      "preview": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/weekly-review-agent/preview.png",
+      "icon": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/weekly-review-agent/icon.svg",
+      "featured": false,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-02-01",
+          "changes": [
+            "Initial release",
+            "GTD-inspired weekly review workflow",
+            "Accomplishments and goals tracking",
+            "Week-over-week comparison"
+          ]
+        }
+      ],
+      "submittedBy": "danielshue"
+    }
+  ],
+  "categories": [
+    "Productivity",
+    "Journaling",
+    "Research",
+    "Writing",
+    "Task Management",
+    "Voice",
+    "Integration",
+    "MCP",
+    "Utility"
+  ],
+  "featured": [],
+  "stats": {
+    "byType": {
+      "agents": 4,
+      "voice-agents": 0,
+      "prompts": 1,
+      "skills": 0,
+      "mcp-servers": 1,
+      "automations": 1
+    },
+    "byCategory": {
+      "Productivity": 6,
+      "Journaling": 2,
+      "Research": 0,
+      "Writing": 0,
+      "Task Management": 3,
+      "Voice": 0,
+      "Integration": 1,
+      "MCP": 1,
+      "Utility": 2
+    },
+    "withRatings": 0,
+    "averageRating": null
+  }
+}
