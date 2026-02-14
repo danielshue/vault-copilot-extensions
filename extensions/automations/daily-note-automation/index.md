@@ -10,7 +10,7 @@ author_url: "https://github.com/danielshue/obsidian-vault-copilot"
 icon: "extensions/automations/daily-note-automation/icon.svg"
 categories: ["Productivity", "Journaling"]
 tags: ["automation", "daily-notes", "scheduling"]
-size: "92.5 KB"
+size: "94.8 KB"
 ---
 
 ## Overview

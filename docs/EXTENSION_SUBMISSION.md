@@ -281,6 +281,7 @@ The service validates:
    - **prompt**: Expects `{id}.prompt.md`
    - **skill**: Expects `skill.md`
    - **mcp-server**: Expects `mcp-config.json`
+   - **automation**: Expects `automation-config.json`
 
 ## Error Handling
 
