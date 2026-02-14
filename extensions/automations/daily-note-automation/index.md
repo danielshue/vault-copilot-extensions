@@ -11,6 +11,7 @@ icon: "extensions/automations/daily-note-automation/icon.svg"
 categories: ["Productivity", "Journaling"]
 tags: ["automation", "daily-notes", "scheduling"]
 size: "94.8 KB"
+entitlement: "free"
 ---
 
 ## Overview
