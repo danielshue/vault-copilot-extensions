@@ -104,9 +104,37 @@ cd extensions/agents/my-agent-name
   "tools": ["create_note", "read_note"],
   "dependencies": [],
   "preview": "preview.png",
-  "featured": false
+  "featured": false,
+  "entitlement": "free"
 }
 ```
+
+#### Optional: Entitlement Field
+
+The `entitlement` field specifies the access tier required to use your extension:
+
+- **`"free"`** (default): Available to all users
+- **`"premium"`**: Requires a paid Vault Copilot subscription
+
+```json
+{
+  "entitlement": "free"   // Free tier (default, can be omitted)
+}
+```
+
+```json
+{
+  "entitlement": "premium"  // Premium tier only
+}
+```
+
+**When to use premium:**
+- Extensions that require significant computational resources
+- Advanced features with ongoing maintenance costs
+- Premium-quality content or specialized functionality
+- Extensions that integrate with paid third-party services
+
+**Note:** Most community extensions should be `"free"`. Premium is typically reserved for official or commercially-supported extensions.
 
 ### 2.4 Create the Extension File
 
