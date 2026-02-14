@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated": "2026-02-14T06:42:42.837Z",
+  "generated": "2026-02-14T06:46:29.240Z",
   "totalExtensions": 7,
   "extensions": [
     {
@@ -26,8 +26,8 @@
       "downloads": 0,
       "rating": null,
       "ratingCount": 0,
-      "publishedAt": "2026-02-14T06:39:50.621Z",
-      "updatedAt": "2026-02-14T06:39:50.621Z",
+      "publishedAt": "2026-02-14T06:46:25.182Z",
+      "updatedAt": "2026-02-14T06:46:25.182Z",
       "size": "5.9 KB",
       "sizeBytes": 6060,
       "minVaultCopilotVersion": "0.0.14",
@@ -70,7 +70,9 @@
           ]
         }
       ],
-      "submittedBy": "danielshue"
+      "submittedBy": "danielshue",
+      "activeInstalls": 0,
+      "analyticsSource": "azure"
     },
     {
       "id": "daily-journal-agent",
@@ -97,8 +99,8 @@
       "downloads": 0,
       "rating": null,
       "ratingCount": 0,
-      "publishedAt": "2026-02-14T06:39:50.622Z",
-      "updatedAt": "2026-02-14T06:39:50.622Z",
+      "publishedAt": "2026-02-14T06:46:25.183Z",
+      "updatedAt": "2026-02-14T06:46:25.183Z",
       "size": "17.9 KB",
       "sizeBytes": 18349,
       "minVaultCopilotVersion": "0.0.1",
@@ -187,7 +189,9 @@
           ]
         }
       ],
-      "submittedBy": "danielshue"
+      "submittedBy": "danielshue",
+      "activeInstalls": 0,
+      "analyticsSource": "azure"
     },
     {
       "id": "daily-note-automation",
@@ -211,8 +215,8 @@
       "downloads": 0,
       "rating": null,
       "ratingCount": 0,
-      "publishedAt": "2026-02-14T06:39:50.623Z",
-      "updatedAt": "2026-02-14T06:39:50.623Z",
+      "publishedAt": "2026-02-14T06:46:25.184Z",
+      "updatedAt": "2026-02-14T06:46:25.184Z",
       "size": "0.3 KB",
       "sizeBytes": 321,
       "minVaultCopilotVersion": "0.1.0",
@@ -238,7 +242,9 @@
       "icon": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/automations/daily-note-automation/icon.svg",
       "featured": false,
       "versions": [],
-      "submittedBy": null
+      "submittedBy": null,
+      "activeInstalls": 0,
+      "analyticsSource": "azure"
     },
     {
       "id": "meeting-notes-agent",
@@ -262,11 +268,11 @@
         "summary",
         "collaboration"
       ],
-      "downloads": 0,
-      "rating": null,
-      "ratingCount": 0,
+      "downloads": 3,
+      "rating": 3,
+      "ratingCount": 3,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T06:39:50.622Z",
+      "updatedAt": "2026-02-14T06:46:25.183Z",
       "size": "2.4 KB",
       "sizeBytes": 2481,
       "minVaultCopilotVersion": "0.1.0",
@@ -305,7 +311,9 @@
           ]
         }
       ],
-      "submittedBy": "danielshue"
+      "submittedBy": "danielshue",
+      "activeInstalls": 3,
+      "analyticsSource": "azure"
     },
     {
       "id": "task-management-prompt",
@@ -333,7 +341,7 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T06:39:50.624Z",
+      "updatedAt": "2026-02-14T06:46:25.186Z",
       "size": "1.4 KB",
       "sizeBytes": 1467,
       "minVaultCopilotVersion": "0.1.0",
@@ -371,7 +379,9 @@
           ]
         }
       ],
-      "submittedBy": "danielshue"
+      "submittedBy": "danielshue",
+      "activeInstalls": 0,
+      "analyticsSource": "azure"
     },
     {
       "id": "example-weather-mcp",
@@ -399,7 +409,7 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T06:39:50.624Z",
+      "updatedAt": "2026-02-14T06:46:25.185Z",
       "size": "0.2 KB",
       "sizeBytes": 238,
       "minVaultCopilotVersion": "0.1.0",
@@ -435,7 +445,9 @@
           ]
         }
       ],
-      "submittedBy": "danielshue"
+      "submittedBy": "danielshue",
+      "activeInstalls": 0,
+      "analyticsSource": "azure"
     },
     {
       "id": "weekly-review-agent",
@@ -463,7 +475,7 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T06:39:50.623Z",
+      "updatedAt": "2026-02-14T06:46:25.183Z",
       "size": "3.4 KB",
       "sizeBytes": 3458,
       "minVaultCopilotVersion": "0.1.0",
@@ -502,7 +514,9 @@
           ]
         }
       ],
-      "submittedBy": "danielshue"
+      "submittedBy": "danielshue",
+      "activeInstalls": 0,
+      "analyticsSource": "azure"
     }
   ],
   "categories": [
@@ -539,5 +553,6 @@
     },
     "withRatings": 0,
     "averageRating": null
-  }
+  },
+  "lastUpdated": "2026-02-14T06:46:29.566Z"
 }
