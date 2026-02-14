@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated": "2026-02-14T04:53:23.005Z",
+  "generated": "2026-02-14T05:14:39.207Z",
   "totalExtensions": 7,
   "extensions": [
     {
@@ -26,8 +26,8 @@
       "downloads": 0,
       "rating": null,
       "ratingCount": 0,
-      "publishedAt": "2026-02-14T04:53:21.701Z",
-      "updatedAt": "2026-02-14T04:53:21.701Z",
+      "publishedAt": "2026-02-14T05:14:34.999Z",
+      "updatedAt": "2026-02-14T05:14:34.999Z",
       "size": "5.9 KB",
       "sizeBytes": 6060,
       "minVaultCopilotVersion": "0.0.14",
@@ -99,8 +99,8 @@
       "downloads": 0,
       "rating": null,
       "ratingCount": 0,
-      "publishedAt": "2026-02-14T04:53:21.702Z",
-      "updatedAt": "2026-02-14T04:53:21.702Z",
+      "publishedAt": "2026-02-14T05:14:34.999Z",
+      "updatedAt": "2026-02-14T05:14:34.999Z",
       "size": "17.9 KB",
       "sizeBytes": 18349,
       "minVaultCopilotVersion": "0.0.1",
@@ -215,8 +215,8 @@
       "downloads": 0,
       "rating": null,
       "ratingCount": 0,
-      "publishedAt": "2026-02-14T04:53:21.704Z",
-      "updatedAt": "2026-02-14T04:53:21.704Z",
+      "publishedAt": "2026-02-14T05:14:35.002Z",
+      "updatedAt": "2026-02-14T05:14:35.002Z",
       "size": "0.3 KB",
       "sizeBytes": 321,
       "minVaultCopilotVersion": "0.1.0",
@@ -272,7 +272,7 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T04:53:21.703Z",
+      "updatedAt": "2026-02-14T05:14:35.001Z",
       "size": "2.4 KB",
       "sizeBytes": 2481,
       "minVaultCopilotVersion": "0.1.0",
@@ -341,7 +341,7 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T04:53:21.705Z",
+      "updatedAt": "2026-02-14T05:14:35.003Z",
       "size": "1.4 KB",
       "sizeBytes": 1467,
       "minVaultCopilotVersion": "0.1.0",
@@ -409,7 +409,7 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T04:53:21.705Z",
+      "updatedAt": "2026-02-14T05:14:35.003Z",
       "size": "0.2 KB",
       "sizeBytes": 238,
       "minVaultCopilotVersion": "0.1.0",
@@ -475,7 +475,7 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T04:53:21.703Z",
+      "updatedAt": "2026-02-14T05:14:35.001Z",
       "size": "3.4 KB",
       "sizeBytes": 3458,
       "minVaultCopilotVersion": "0.1.0",
@@ -554,5 +554,5 @@
     "withRatings": 0,
     "averageRating": null
   },
-  "lastUpdated": "2026-02-14T04:53:23.235Z"
+  "lastUpdated": "2026-02-14T05:14:39.666Z"
 }
