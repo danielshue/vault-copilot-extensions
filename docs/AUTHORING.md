@@ -32,7 +32,7 @@ This guide walks you through creating an extension from scratch and submitting i
 | **Prompt** | Reusable prompt templates | `.prompt.md` |
 | **Skill** | Agent capabilities | `skill.md` |
 | **MCP Server** | External integrations | `mcp-config.json` |
-| **Automation** | Scheduled workflows | `automation-config.json` |
+| **Automation** | Scheduled or event-triggered workflows | `automation-config.json` |
 
 ---
 

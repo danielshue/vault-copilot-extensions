@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated": "2026-02-14T06:51:32.273Z",
+  "generated": "2026-02-14T06:32:36.716Z",
   "totalExtensions": 7,
   "extensions": [
     {
@@ -26,8 +26,8 @@
       "downloads": 0,
       "rating": null,
       "ratingCount": 0,
-      "publishedAt": "2026-02-14T04:26:00.838Z",
-      "updatedAt": "2026-02-14T04:26:00.838Z",
+      "publishedAt": "2026-02-14T06:26:54.251Z",
+      "updatedAt": "2026-02-14T06:26:54.251Z",
       "size": "5.9 KB",
       "sizeBytes": 6060,
       "minVaultCopilotVersion": "0.0.14",
@@ -70,8 +70,7 @@
           ]
         }
       ],
-      "submittedBy": "danielshue",
-      "entitlement": "free"
+      "submittedBy": "danielshue"
     },
     {
       "id": "daily-journal-agent",
@@ -98,10 +97,10 @@
       "downloads": 0,
       "rating": null,
       "ratingCount": 0,
-      "publishedAt": "2026-02-14T01:47:33.745Z",
-      "updatedAt": "2026-02-14T01:47:33.745Z",
-      "size": "18.3 KB",
-      "sizeBytes": 18729,
+      "publishedAt": "2026-02-14T06:26:54.252Z",
+      "updatedAt": "2026-02-14T06:26:54.252Z",
+      "size": "17.9 KB",
+      "sizeBytes": 18349,
       "minVaultCopilotVersion": "0.0.1",
       "repository": "https://github.com/danielshue/obsidian-vault-copilot",
       "license": "MIT",
@@ -112,7 +111,7 @@
           "source": "daily-journal-agent.agent.md",
           "downloadUrl": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/daily-journal-agent/daily-journal-agent.agent.md",
           "installPath": "extensions/agents/daily-journal-agent/daily-journal-agent.agent.md",
-          "size": "18.3 KB"
+          "size": "17.9 KB"
         }
       ],
       "tools": [
@@ -188,8 +187,7 @@
           ]
         }
       ],
-      "submittedBy": "danielshue",
-      "entitlement": "free"
+      "submittedBy": "danielshue"
     },
     {
       "id": "daily-note-automation",
@@ -213,10 +211,10 @@
       "downloads": 0,
       "rating": null,
       "ratingCount": 0,
-      "publishedAt": "2026-02-14T02:33:31.061Z",
-      "updatedAt": "2026-02-14T02:33:31.061Z",
+      "publishedAt": "2026-02-14T06:26:54.254Z",
+      "updatedAt": "2026-02-14T06:26:54.254Z",
       "size": "0.3 KB",
-      "sizeBytes": 341,
+      "sizeBytes": 321,
       "minVaultCopilotVersion": "0.1.0",
       "repository": "https://github.com/danielshue/obsidian-vault-copilot",
       "license": "MIT",
@@ -227,7 +225,7 @@
           "source": "automation-config.json",
           "downloadUrl": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/automations/daily-note-automation/automation-config.json",
           "installPath": ".obsidian/automations/",
-          "size": "341 B"
+          "size": "321 B"
         }
       ],
       "tools": [
@@ -240,8 +238,7 @@
       "icon": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/automations/daily-note-automation/icon.svg",
       "featured": false,
       "versions": [],
-      "submittedBy": null,
-      "entitlement": "free"
+      "submittedBy": null
     },
     {
       "id": "meeting-notes-agent",
@@ -269,9 +266,9 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T01:47:33.745Z",
-      "size": "2.5 KB",
-      "sizeBytes": 2577,
+      "updatedAt": "2026-02-14T06:26:54.253Z",
+      "size": "2.4 KB",
+      "sizeBytes": 2481,
       "minVaultCopilotVersion": "0.1.0",
       "repository": "https://github.com/danielshue/obsidian-vault-copilot",
       "license": "MIT",
@@ -282,7 +279,7 @@
           "source": "meeting-notes-agent.agent.md",
           "downloadUrl": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/meeting-notes-agent/meeting-notes-agent.agent.md",
           "installPath": "Reference/Agents/",
-          "size": "2.5 KB"
+          "size": "2.4 KB"
         }
       ],
       "tools": [
@@ -308,8 +305,7 @@
           ]
         }
       ],
-      "submittedBy": "danielshue",
-      "entitlement": "free"
+      "submittedBy": "danielshue"
     },
     {
       "id": "task-management-prompt",
@@ -337,9 +333,9 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T01:47:33.747Z",
-      "size": "1.5 KB",
-      "sizeBytes": 1526,
+      "updatedAt": "2026-02-14T06:26:54.255Z",
+      "size": "1.4 KB",
+      "sizeBytes": 1467,
       "minVaultCopilotVersion": "0.1.0",
       "repository": "https://github.com/danielshue/obsidian-vault-copilot",
       "license": "MIT",
@@ -350,7 +346,7 @@
           "source": "task-management-prompt.prompt.md",
           "downloadUrl": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/prompts/task-management-prompt/task-management-prompt.prompt.md",
           "installPath": "Reference/Prompts/",
-          "size": "1.5 KB"
+          "size": "1.4 KB"
         }
       ],
       "tools": [
@@ -375,8 +371,7 @@
           ]
         }
       ],
-      "submittedBy": "danielshue",
-      "entitlement": "free"
+      "submittedBy": "danielshue"
     },
     {
       "id": "example-weather-mcp",
@@ -404,9 +399,9 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T01:47:33.746Z",
+      "updatedAt": "2026-02-14T06:26:54.255Z",
       "size": "0.2 KB",
-      "sizeBytes": 252,
+      "sizeBytes": 238,
       "minVaultCopilotVersion": "0.1.0",
       "repository": "https://github.com/danielshue/obsidian-vault-copilot",
       "license": "MIT",
@@ -417,7 +412,7 @@
           "source": "mcp-config.json",
           "downloadUrl": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/mcp-servers/example-weather-mcp/mcp-config.json",
           "installPath": ".obsidian/",
-          "size": "252 B"
+          "size": "238 B"
         }
       ],
       "tools": [],
@@ -440,8 +435,7 @@
           ]
         }
       ],
-      "submittedBy": "danielshue",
-      "entitlement": "free"
+      "submittedBy": "danielshue"
     },
     {
       "id": "weekly-review-agent",
@@ -469,9 +463,9 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T01:47:33.745Z",
-      "size": "3.5 KB",
-      "sizeBytes": 3597,
+      "updatedAt": "2026-02-14T06:26:54.253Z",
+      "size": "3.4 KB",
+      "sizeBytes": 3458,
       "minVaultCopilotVersion": "0.1.0",
       "repository": "https://github.com/danielshue/obsidian-vault-copilot",
       "license": "MIT",
@@ -482,7 +476,7 @@
           "source": "weekly-review-agent.agent.md",
           "downloadUrl": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/weekly-review-agent/weekly-review-agent.agent.md",
           "installPath": "Reference/Agents/",
-          "size": "3.5 KB"
+          "size": "3.4 KB"
         }
       ],
       "tools": [
@@ -508,8 +502,7 @@
           ]
         }
       ],
-      "submittedBy": "danielshue",
-      "entitlement": "free"
+      "submittedBy": "danielshue"
     }
   ],
   "categories": [
