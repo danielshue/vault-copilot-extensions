@@ -16,7 +16,7 @@ scripts/*.cjs                 ← Node.js build/validation tooling (CommonJS)
 catalog/catalog.json          ← Generated aggregate catalog (build artifact)
 _layouts/, _includes/         ← Jekyll templates for the website
 assets/css/extensions.css     ← Site stylesheet
-features/*.md                 ← Feature marketing pages (Jekyll)
+docs/features/*.md            ← Feature marketing pages (Jekyll)
 docs/                         ← Authoring & submission guides (Jekyll)
 schema/manifest.schema.json   ← JSON Schema for extension manifests
 .github/workflows/            ← CI: validate PRs + build/deploy on merge
