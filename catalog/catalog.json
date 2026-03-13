@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated": "2026-02-14T06:52:42.828Z",
+  "generated": "2026-03-13T03:32:58.824Z",
   "totalExtensions": 7,
   "extensions": [
     {
@@ -8,30 +8,22 @@
       "name": "Agent Builder",
       "type": "agent",
       "version": "1.0.0",
-      "description": "Interactive assistant that guides you through creating custom .agent.md files with best practices, dynamic tool/skill discovery, and quality validation.",
+      "description": "A agent named Agent Builder.",
       "author": {
         "name": "Dan Shue",
         "url": "https://github.com/danielshue"
       },
-      "categories": [
-        "Productivity",
-        "Utility"
-      ],
-      "tags": [
-        "agent",
-        "builder",
-        "meta",
-        "customization"
-      ],
+      "categories": [],
+      "tags": [],
       "downloads": 0,
       "rating": null,
       "ratingCount": 0,
-      "publishedAt": "2026-02-14T06:52:41.737Z",
-      "updatedAt": "2026-02-14T06:52:41.737Z",
-      "size": "5.9 KB",
-      "sizeBytes": 6060,
-      "minVaultCopilotVersion": "0.0.14",
-      "repository": "https://github.com/danielshue/obsidian-vault-copilot",
+      "publishedAt": "2026-03-13T03:32:54.662Z",
+      "updatedAt": "2026-03-13T03:32:54.662Z",
+      "size": "8.3 KB",
+      "sizeBytes": 8533,
+      "minVaultCopilotVersion": "0.1.0",
+      "repository": null,
       "license": "MIT",
       "detailPageUrl": "https://danielshue.github.io/vault-copilot-extensions/extensions/agents/agent-builder/",
       "discussionUrl": null,
@@ -41,36 +33,22 @@
           "downloadUrl": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/agent-builder/agent-builder.agent.md",
           "installPath": "Reference/Agents/",
           "size": "5.9 KB"
+        },
+        {
+          "source": "preview.svg",
+          "downloadUrl": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/agent-builder/preview.svg",
+          "installPath": "Reference/Agents/",
+          "size": "2.4 KB"
         }
       ],
-      "tools": [
-        "list_available_tools",
-        "list_available_skills",
-        "list_available_agents",
-        "list_available_prompts",
-        "list_available_instructions",
-        "create_note",
-        "read_note",
-        "ask_question"
-      ],
+      "tools": [],
       "permissions": [],
       "dependencies": [],
-      "preview": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/agent-builder/preview.png",
+      "preview": null,
       "icon": "https://raw.githubusercontent.com/danielshue/vault-copilot-extensions/main/extensions/agents/agent-builder/icon.svg",
       "featured": false,
-      "versions": [
-        {
-          "version": "1.0.0",
-          "date": "2026-02-13",
-          "changes": [
-            "Initial release",
-            "8-phase agent creation workflow",
-            "Dynamic tool and skill discovery via introspection",
-            "Quality validation and best practices enforcement"
-          ]
-        }
-      ],
-      "submittedBy": "danielshue",
+      "versions": [],
+      "submittedBy": null,
       "entitlement": "free",
       "activeInstalls": 0,
       "analyticsSource": "azure"
@@ -100,8 +78,8 @@
       "downloads": 0,
       "rating": null,
       "ratingCount": 0,
-      "publishedAt": "2026-02-14T06:52:41.738Z",
-      "updatedAt": "2026-02-14T06:52:41.738Z",
+      "publishedAt": "2026-03-13T03:32:54.663Z",
+      "updatedAt": "2026-03-13T03:32:54.663Z",
       "size": "17.9 KB",
       "sizeBytes": 18349,
       "minVaultCopilotVersion": "0.0.1",
@@ -217,8 +195,8 @@
       "downloads": 0,
       "rating": null,
       "ratingCount": 0,
-      "publishedAt": "2026-02-14T06:52:41.739Z",
-      "updatedAt": "2026-02-14T06:52:41.739Z",
+      "publishedAt": "2026-03-13T03:32:54.665Z",
+      "updatedAt": "2026-03-13T03:32:54.665Z",
       "size": "0.3 KB",
       "sizeBytes": 321,
       "minVaultCopilotVersion": "0.1.0",
@@ -271,11 +249,11 @@
         "summary",
         "collaboration"
       ],
-      "downloads": 3,
-      "rating": 3,
-      "ratingCount": 3,
+      "downloads": 0,
+      "rating": null,
+      "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T06:52:41.738Z",
+      "updatedAt": "2026-03-13T03:32:54.664Z",
       "size": "2.4 KB",
       "sizeBytes": 2481,
       "minVaultCopilotVersion": "0.1.0",
@@ -316,7 +294,7 @@
       ],
       "submittedBy": "danielshue",
       "entitlement": "free",
-      "activeInstalls": 3,
+      "activeInstalls": 0,
       "analyticsSource": "azure"
     },
     {
@@ -345,7 +323,7 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T06:52:41.740Z",
+      "updatedAt": "2026-03-13T03:32:54.666Z",
       "size": "1.4 KB",
       "sizeBytes": 1467,
       "minVaultCopilotVersion": "0.1.0",
@@ -414,7 +392,7 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T06:52:41.740Z",
+      "updatedAt": "2026-03-13T03:32:54.666Z",
       "size": "0.2 KB",
       "sizeBytes": 238,
       "minVaultCopilotVersion": "0.1.0",
@@ -481,7 +459,7 @@
       "rating": null,
       "ratingCount": 0,
       "publishedAt": "2026-02-01T00:00:00Z",
-      "updatedAt": "2026-02-14T06:52:41.739Z",
+      "updatedAt": "2026-03-13T03:32:54.664Z",
       "size": "3.4 KB",
       "sizeBytes": 3458,
       "minVaultCopilotVersion": "0.1.0",
@@ -548,7 +526,7 @@
       "automations": 1
     },
     "byCategory": {
-      "Productivity": 6,
+      "Productivity": 5,
       "Journaling": 2,
       "Research": 0,
       "Writing": 0,
@@ -556,10 +534,10 @@
       "Voice": 0,
       "Integration": 1,
       "MCP": 1,
-      "Utility": 2
+      "Utility": 1
     },
     "withRatings": 0,
     "averageRating": null
   },
-  "lastUpdated": "2026-02-14T06:52:43.049Z"
+  "lastUpdated": "2026-03-13T03:33:01.516Z"
 }
