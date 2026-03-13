@@ -8,7 +8,7 @@ description: "A agent named Agent Builder."
 author: "Dan Shue"
 author_url: "https://github.com/danielshue"
 icon: "extensions/agents/agent-builder/icon.svg"
-size: "110.6 KB"
+size: "111.6 KB"
 entitlement: "free"
 ---
 
