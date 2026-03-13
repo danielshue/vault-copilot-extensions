@@ -10,7 +10,7 @@ const fs = require('fs');
 const path = require('path');
 
 const EXTENSIONS_DIR = path.join(__dirname, '..', 'extensions');
-const EXTENSION_TYPES = ['agents', 'voice-agents', 'prompts', 'skills', 'mcp-servers', 'automations'];
+const EXTENSION_TYPES = ['agents', 'voice-agents', 'prompts', 'skills', 'mcp-servers', 'automations', 'scenarios'];
 
 /**
  * Calculate the total size of an extension directory in human-readable format.

@@ -33,7 +33,7 @@ const GITHUB_REPO = 'vault-copilot-extensions';
 const GITHUB_API_BASE = 'https://api.github.com';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
 
-const EXTENSION_TYPES = ['agents', 'voice-agents', 'prompts', 'skills', 'mcp-servers', 'automations'];
+const EXTENSION_TYPES = ['agents', 'voice-agents', 'prompts', 'skills', 'mcp-servers', 'automations', 'scenarios'];
 
 const CATEGORIES = [
   'Productivity',

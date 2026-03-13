@@ -30,8 +30,8 @@
     },
     "type": {
       "type": "string",
-      "enum": ["agent", "voice-agent", "prompt", "skill", "mcp-server", "automation"],
-      "description": "The type of extension. Determines installation location and behavior: 'agent' for AI agents, 'voice-agent' for voice-enabled agents, 'prompt' for reusable prompts, 'skill' for Copilot skills, 'mcp-server' for Model Context Protocol server integrations, 'automation' for scheduled or event-triggered workflows."
+      "enum": ["agent", "voice-agent", "prompt", "skill", "mcp-server", "automation", "scenario"],
+      "description": "The type of extension. Determines installation location and behavior: 'agent' for AI agents, 'voice-agent' for voice-enabled agents, 'prompt' for reusable prompts, 'skill' for Copilot skills, 'mcp-server' for Model Context Protocol server integrations, 'automation' for scheduled or event-triggered workflows, 'scenario' for multi-step guided workflows and templates."
     },
     "description": {
       "type": "string",
