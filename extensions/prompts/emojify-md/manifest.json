@@ -1,0 +1,21 @@
+{
+  "id": "emojify-md",
+  "name": "Emojify.md",
+  "version": "1.0.0",
+  "kind": "prompt",
+  "description": "A prompt named Emojify.md.",
+  "author": {
+    "name": "Dan Shue",
+    "url": "https://github.com/danielshue"
+  },
+  "files": [
+    {
+      "source": "Emojify.md",
+      "installPath": "Reference/Prompts/"
+    },
+    {
+      "source": "preview.svg",
+      "installPath": "Reference/Prompts/"
+    }
+  ]
+}
