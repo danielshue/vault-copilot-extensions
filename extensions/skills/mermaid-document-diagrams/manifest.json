@@ -1,0 +1,21 @@
+{
+  "id": "mermaid-document-diagrams",
+  "name": "Mermaid Document Diagrams",
+  "version": "1.0.0",
+  "kind": "skill",
+  "description": "A skill named Mermaid Document Diagrams.",
+  "author": {
+    "name": "Dan Shue",
+    "url": "https://github.com/danielshue"
+  },
+  "files": [
+    {
+      "source": "preview.svg",
+      "installPath": "Reference/Skills/"
+    },
+    {
+      "source": "SKILL.md",
+      "installPath": "Reference/Skills/"
+    }
+  ]
+}
