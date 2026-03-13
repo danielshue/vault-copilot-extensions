@@ -1,0 +1,21 @@
+{
+  "id": "mermaid-document-diagrams",
+  "name": "Mermaid Document Diagrams",
+  "version": "1.0.0",
+  "kind": "agent",
+  "description": "A agent named Mermaid Document Diagrams.",
+  "author": {
+    "name": "Dan Shue",
+    "url": "https://github.com/danielshue"
+  },
+  "files": [
+    {
+      "source": "preview.svg",
+      "installPath": "Reference/Agents/"
+    },
+    {
+      "source": "SKILL.md",
+      "installPath": "Reference/Agents/"
+    }
+  ]
+}
